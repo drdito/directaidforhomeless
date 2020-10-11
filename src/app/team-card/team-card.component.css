@@ -1,0 +1,40 @@
+#size-image {
+    min-width: 21.4rem;
+}
+
+.card-root {
+    margin: 1rem 2rem 0 0;
+    height: 27rem;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-body {
+    padding: 1.25rem 0 1.25rem 1.25rem;
+}
+
+.need-wrap-text {
+    max-width: 18rem;
+}
+
+#need-italics {
+    font-style: italic;
+}
+
+@media only screen and (max-width: 692px) {
+    footer {
+        font-size: .7em;
+    }
+    .card-root {
+        margin: 1rem 0 0 0;
+    }
+}
+
+@media only screen and (min-width: 393px) {
+    #size-image {
+        width: 21.4rem;
+    }
+}

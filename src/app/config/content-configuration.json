@@ -1,0 +1,18 @@
+{
+    "team_member_cards": [
+        {
+            "memberName": "Michelle Patterson",
+            "imageSrc": "assets/images/truck_umbrella.jpg",
+            "position": "Founder/Director",
+            "description": "Has a background in Social Work and extensive knowledge about the shelter services provided in the Phoenix metropolitan area.",
+            "imageDescription": "Michelle's face"
+        },
+        {
+            "memberName": "Dan Dito",
+            "imageSrc": "assets/images/test.jpg",
+            "position": "Developer Extrodinair",
+            "description": "Builder of this website",
+            "imageDescription": "Jurrasic Park"
+        }
+    ]
+}

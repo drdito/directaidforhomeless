@@ -8,6 +8,7 @@ import { AboutComponent } from './about/about.component';
 import { VolunteerComponent } from './volunteer/volunteer.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { DonateComponent } from './donate/donate.component';
+import { TeamCardComponent } from './team-card/team-card.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { DonateComponent } from './donate/donate.component';
     AboutComponent,
     VolunteerComponent,
     NavbarComponent,
-    DonateComponent
+    DonateComponent,
+    TeamCardComponent
   ],
   imports: [
     BrowserModule,

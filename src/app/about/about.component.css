@@ -2,13 +2,6 @@
     padding: 1rem;
 }
 
-.about-block{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
 blockquote{
     font-size: 30px;
     background: #e9ecef;
@@ -41,6 +34,12 @@ blockquote{
     text-align: right;
     font-size: 1em;
     font-style: italic;
+  }
+
+  .team-card-root{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
   }
 
   @media only screen and (max-width: 428px) {

@@ -14,15 +14,8 @@
         <footer>— William Shakespeare, Twelfth Night</footer>
     </blockquote>
     <br>
-    <div class="about-block">
-        <h2>This is us!</h2>
-        <div class="card">
-            <img class="card-img-top" src="assets/images/michelle.jpg" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Michelle Patterson</h5>
-                <p class="card-text">Has a background in Social Work and extensive knowledge about the shelter services
-                    provided in the Phoenix metropolitan area.</p>
-            </div>
-        </div>
+    <h2>Meet the Team</h2>
+    <div class="team-card-root">
+        <app-team-card *ngFor="let items of getCardItems()" [card-data]="items"></app-team-card>
     </div>
 </div>
