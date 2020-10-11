@@ -1,9 +1,11 @@
-#size-image {
-    min-width: 21.4rem;
+img {
+    width: 337px;
+    height: 173px;
+    object-fit: cover;
 }
 
 .card-root {
-    margin: 1rem 2rem 0 0;
+    margin: 1rem 1rem 0 0;
     height: 27rem;
 }
 
@@ -30,11 +32,5 @@
     }
     .card-root {
         margin: 1rem 0 0 0;
-    }
-}
-
-@media only screen and (min-width: 393px) {
-    #size-image {
-        width: 21.4rem;
     }
 }
