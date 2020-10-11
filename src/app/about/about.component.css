@@ -17,6 +17,7 @@ blockquote{
     quotes: "\201C""\201D""\2018""\2019";
     padding: 10px 20px;
     line-height: 1.4;
+    border-radius: .2rem;
   }
   
   blockquote:before {
